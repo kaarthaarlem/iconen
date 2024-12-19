@@ -1,0 +1,57 @@
+{
+  "rules": [
+    {
+      "name": "Milieu",
+      "filter": ["==", "sensordoel", "milieu"],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 7,
+          "image": "https://kaarthaarlem.github.io/iconen/sensordoel/milieu.svg",
+          "sizeUnit": "m",
+          "allowOverlap": true
+        }
+      ]
+    },
+    {
+      "name": "Veiligheid",
+      "filter": ["==", "sensordoel", "veiligheid"],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 7,
+          "image": "https://kaarthaarlem.github.io/iconen/sensordoel/veiligheid.svg",
+          "sizeUnit": "m",
+          "allowOverlap": true
+        }
+      ]
+    },
+    {
+      "name": "Verkeer",
+      "filter": ["==", "sensordoel", "verkeer"],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 7,
+          "image": "https://kaarthaarlem.github.io/iconen/sensordoel/verkeer.svg",
+          "sizeUnit": "m",
+          "allowOverlap": true
+        }
+      ]
+    },
+    {
+      "name": "Voorziening",
+      "filter": ["==", "sensordoel", "voorzieningen"],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 7,
+          "image": "https://kaarthaarlem.github.io/iconen/sensordoel/voorzieningen.svg",
+          "sizeUnit": "m",
+          "allowOverlap": true
+        }
+      ]
+    }
+  ]
+}
+
