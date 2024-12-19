@@ -1,4 +1,4 @@
-# Diverse symbolen
+# Haarlem kaart symbolen
 Centrale repository met symbolen voor op de kaart. Deze repository is geschikt voor diverse geografische applicaties en ondersteunt meerdere stijldialecten.
 
 Een preview van de symbolen is te zien via: https://kaarthaarlem.github.io/iconen/
