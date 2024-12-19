@@ -1,209 +1,92 @@
 {
-  "name": "Witte kaart",
   "rules": [
     {
-      "name": "Ziekenhuis",
-      "filter": ["==", "sector", "Ziekenhuis"],
+      "name": "Beelden",
+      "filter": ["==", "sensortypen", "beelden"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Ziekenhuis.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/beelden.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "Apothekers",
-      "filter": ["==", "sector", "Apothekers"],
+      "name": "Beweging",
+      "filter": ["==", "sensortypen", "beweging"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Apothekers.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/beweging.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "Ambulancezorg",
-      "filter": ["==", "sector", "Ambulancezorg"],
+      "name": "Geluid",
+      "filter": ["==", "sensortypen", "geluid"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-RAV.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/geluid.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "Gehandicaptenzorg",
-      "filter": ["==", "sector", "Gehandicaptenzorg"],
+      "name": "Lucht",
+      "filter": ["==", "sensortypen", "lucht"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Gehandicaptenzorg.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/lucht.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "GGD",
-      "filter": ["==", "sector", "GGD"],
+      "name": "Radiogolven",
+      "filter": ["==", "sensortypen", "radiogolven"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-GGD.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/radiogolven.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "GGZ",
-      "filter": ["==", "sector", "GGZ"],
+      "name": "Water",
+      "filter": ["==", "sensortypen", "water"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-GGZ.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/water.svg",
           "sizeUnit": "m",
           "allowOverlap": true
         }
       ]
     },
     {
-      "name": "Huisartsen",
-      "filter": ["==", "sector", "Huisartsen"],
+      "name": "Weer",
+      "filter": ["==", "sensortypen", "weer"],
       "symbolizers": [
         {
           "kind": "Icon",
           "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Huisartsen.png",
+          "image": "https://kaarthaarlem.github.io/iconen/sensortypen/weer.svg",
           "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Huisartsenpost",
-      "filter": ["==", "sector", "Huisartsenpost"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Huisartsen.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Jeugdzorg",
-      "filter": ["==", "sector", "Jeugdzorg"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Jeugdzorg.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Medisch behandelcentrum",
-      "filter": ["==", "sector", "Medisch behandelcentrum"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-rest.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Nederlandse Rode Kruis",
-      "filter": ["==", "sector", "Nederlandse Rode Kruis"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-NRK.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Overig",
-      "filter": ["==", "sector", "Overig"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-rest.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Revalidatiecentrum",
-      "filter": ["==", "sector", "Revalidatiecentrum"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Revalidatiecentra.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Thuiszorg",
-      "filter": ["==", "sector", "Thuiszorg"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Thuiszorg.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Verloskundigen",
-      "filter": ["==", "sector", "Verloskundigen"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Verloskunde.png",
-          "sizeUnit": "m",
-          "allowOverlap": true
-        }
-      ]
-    },
-    {
-      "name": "Verpleegzorg",
-      "filter": ["==", "sector", "Verpleegzorg"],
-      "symbolizers": [
-        {
-          "kind": "Icon",
-          "size": 7,
-          "image": "https://imroi.github.io/diversen/wittekaart/WK-Verpleging.png",
           "allowOverlap": true
         }
       ]
